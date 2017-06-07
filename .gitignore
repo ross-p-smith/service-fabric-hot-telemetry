@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/packages/
+/BasicService/obj
+/BasicService/bin/
+/Service-Fabric-HotTelemetry/Service_Fabric_HotTelemetry.sfproj.user
