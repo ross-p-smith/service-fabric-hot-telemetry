@@ -2,5 +2,7 @@
 <Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/Service_Fabric_HotTelemetry" xmlns="http://schemas.microsoft.com/2011/01/fabric">
   <Parameters>
     <Parameter Name="BasicService_InstanceCount" Value="-1" />
+    <!-- This key is going to be different than the one for your local box-->
+    <Parameter Name="ApplicationInsightsInstrumentationKey" Value="xxxxxx-xxxx-xxxx-xxxx-xxxxxx" />
   </Parameters>
 </Application>

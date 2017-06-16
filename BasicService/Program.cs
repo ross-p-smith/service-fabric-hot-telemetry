@@ -1,9 +1,8 @@
-﻿using Microsoft.ServiceFabric.Services.Runtime;
+﻿using Microsoft.Diagnostics.EventFlow.ServiceFabric;
+using Microsoft.ServiceFabric.Services.Runtime;
 using System;
 using System.Diagnostics;
 using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.Diagnostics.EventFlow.ServiceFabric;
 
 namespace BasicService
 {
